@@ -1,0 +1,22 @@
+children = {
+    root 1.0 children = {
+        node1 2.5 children = {
+            leaf1 3.7 children = {},
+            leaf2 4.2 children = {}
+        },
+        node2 5.1 children = {
+            inner1 1.1 children = {
+                innerLeaf1 0.3 children = {}
+            },
+            inner2 3.9 children = {
+                deepLeaf1 8.7 children = {},
+                deepLeaf2 9.2 children = {
+                    deepestLeaf 0.1 children = {}
+                }
+            }
+        },
+        node3 7.0 children = {
+            leaf3 1.5 children = {}
+        }
+    }
+}
